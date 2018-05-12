@@ -1,0 +1,11 @@
+C:\Users\Scare\source\repos\TestBot\TestBot\bin\Debug\netcoreapp2.0\TestBot.deps.json
+C:\Users\Scare\source\repos\TestBot\TestBot\bin\Debug\netcoreapp2.0\TestBot.runtimeconfig.json
+C:\Users\Scare\source\repos\TestBot\TestBot\bin\Debug\netcoreapp2.0\TestBot.runtimeconfig.dev.json
+C:\Users\Scare\source\repos\TestBot\TestBot\bin\Debug\netcoreapp2.0\TestBot.dll
+C:\Users\Scare\source\repos\TestBot\TestBot\obj\Debug\netcoreapp2.0\TestBot.csprojResolveAssemblyReference.cache
+C:\Users\Scare\source\repos\TestBot\TestBot\obj\Debug\netcoreapp2.0\TestBot.csproj.CoreCompileInputs.cache
+C:\Users\Scare\source\repos\TestBot\TestBot\obj\Debug\netcoreapp2.0\TestBot.AssemblyInfoInputs.cache
+C:\Users\Scare\source\repos\TestBot\TestBot\obj\Debug\netcoreapp2.0\TestBot.AssemblyInfo.cs
+C:\Users\Scare\source\repos\TestBot\TestBot\bin\Debug\netcoreapp2.0\TestBot.pdb
+C:\Users\Scare\source\repos\TestBot\TestBot\obj\Debug\netcoreapp2.0\TestBot.dll
+C:\Users\Scare\source\repos\TestBot\TestBot\obj\Debug\netcoreapp2.0\TestBot.pdb
