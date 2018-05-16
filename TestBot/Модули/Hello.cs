@@ -12,24 +12,21 @@ namespace TestBot.Модули
         [Command("Виталя, привет")]
         public async Task HelloAsync()
         {
-            int a = 10;
-            await ReplyAsync("Привет!");
-            await ReplyAsync($"{a}");
-            /*string path = @"D:\test.txt";
-            FileInfo fileInf = new FileInfo(path);
-            if (fileInf.Exists)
-            {
-                File.Create(@"D:\test2.txt");
-                string path2 = @"D:\test2.txt";
-                FileInfo fileInf2 = new FileInfo(path);
-                if (fileInf2.Exists)
-                {
-                    string text = Console.ReadLine();
-                    File.WriteAllText();
-                }
-            }*/
-            string path = @"D:\test.txt"; //Get a path to the file
-            File.WriteAllText(path, "Test"); //Creates file, writes a text and closes the file. And it works!!!
+            string usermention = Context.Message.Author.Mention;
+            await ReplyAsync($"Привет, {usermention}!");
+
+
+
+            FileStream logfile = new FileStream(@"D:\Vitfiles\log.txt", FileMode.Append); //открытие файла на дозапись в конец файла
+            StreamWriter writer = new StreamWriter(logfile); //создаем «потоковый писатель» и связываем его с файловым потоком 
+            string text = " \"-Виталя, привет\" ";
+            string mention = Context.Message.Author.Username;
+            writer.Write(DateTime.Now); //записываем в файл
+            writer.Write(text);
+            writer.Write("(");
+            writer.Write(mention);
+            writer.WriteLine(")");
+            writer.Close(); //закрываем поток. Не закрыв поток, в файл ничего не запишется 
         }
     }
 }
