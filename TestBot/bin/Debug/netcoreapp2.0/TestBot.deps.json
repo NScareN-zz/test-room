@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v2.0": {
       "TestBot/1.0.0": {
         "dependencies": {
-          "Discord.Net": "1.0.2"
+          "Discord.Net": "1.0.2",
+          "Discord.Net.Commands": "1.0.2"
         },
         "runtime": {
           "TestBot.dll": {}
